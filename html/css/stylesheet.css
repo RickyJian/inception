@@ -2,11 +2,16 @@ html, body {
   height: 100%;
   margin: 0%; }
 
-.banner {
+.banner, .banner-mask {
+  /* TODO: input image variable to instead url argurement */
   background-image: url("../img/top_banner.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+
+.banner-mask {
+  height: 100%;
+  mask-image: linear-gradient(rgba(237, 237, 237, 0.8), rgba(237, 237, 237, 0.8)); }
 
 /*# sourceMappingURL=stylesheet.css.map */

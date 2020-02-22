@@ -1,11 +1,21 @@
 html, body
     height: 100%
     margin: 0%
-    
-.banner
+
+$banner-height: 100%
+
+%banner-top
     /* TODO: input image variable to instead url argurement */
     background-image: url("../img/top_banner.jpg")
-    height: 100%
+    height: $banner-height
     background-position: center
     background-repeat: no-repeat
     background-size: cover
+   
+.banner
+    @extend %banner-top
+
+.banner-mask
+    @extend %banner-top
+    height: $banner-height
+    mask-image: linear-gradient(rgba(237,237,237,0.8),rgba(237,237,237,0.8))
