@@ -2,7 +2,25 @@ html, body {
   height: 100%;
   margin: 0%; }
 
-.banner, .banner-mask {
+.dark {
+  color: black; }
+
+.white {
+  color: white; }
+
+.banner-btn-dark, .banner-btn-white {
+  margin: 100px 0px 0px 0px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  padding: 25px 55px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Roboto;
+  cursor: pointer; }
+
+.banner {
   /* TODO: input image variable to instead url argument */
   background-image: url("../img/top_banner.jpg");
   height: 100%;
@@ -10,7 +28,7 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover; }
 
-.banner-mask {
+.mask {
   height: 100%;
   mask-image: linear-gradient(rgba(237, 237, 237, 0.8), rgba(237, 237, 237, 0.8)); }
 
@@ -22,5 +40,27 @@ html, body {
   position: absolute;
   text-align: center;
   vertical-align: middle; }
+
+.banner-content h1 {
+  font-size: 5em; }
+
+.banner-content p {
+  font-size: 1.5em;
+  padding: 0em 6em; }
+
+.banner-content i {
+  margin: 0px 10px;
+  font-size: 3em;
+  cursor: pointer; }
+
+.banner-btn-dark {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid black;
+  color: black; }
+
+.banner-btn-white {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  color: white; }
 
 /*# sourceMappingURL=stylesheet.css.map */
