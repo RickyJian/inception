@@ -8,7 +8,8 @@ $font-family: Roboto
     margin: 100px 0px 0px 0px
     background-color: $traspaerncy
     border-radius: 10px
-    padding: 25px 55px
+    width: 150px
+    height: 65px
     text-align: center
     text-decoration: none
     display: inline-block
@@ -27,7 +28,7 @@ html, body
     color: $white-color
 
 .banner
-    /* TODO: input image variable to instead url argument */
+    // TODO: input image variable to instead url argument 
     background-image: url("../img/top_banner.jpg")
     height: $banner-height
     background-position: center
@@ -49,7 +50,7 @@ html, body
 
 .banner-content h1
     font-size: 5em
-    
+
 .banner-content p
     font-size: 1.5em
     padding: 0em 6em
@@ -63,8 +64,15 @@ html, body
     @extend %banner-button
     background-color: $traspaerncy
     border: 1px solid $dark-color
+    transition: 0.5s
     color: $dark-color
 
+.banner-btn-dark:hover
+    // TODO: change color
+    border-color: yellow
+    color: yellow
+
+    
 .banner-btn-white
     @extend %banner-button
     background-color: $traspaerncy

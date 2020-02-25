@@ -1,3 +1,16 @@
+.banner-btn-dark, .banner-btn-white {
+  margin: 100px 0px 0px 0px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  width: 150px;
+  height: 65px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Roboto;
+  cursor: pointer; }
+
 html, body {
   height: 100%;
   margin: 0%; }
@@ -7,18 +20,6 @@ html, body {
 
 .white {
   color: white; }
-
-.banner-btn-dark, .banner-btn-white {
-  margin: 100px 0px 0px 0px;
-  background-color: rgba(0, 0, 0, 0);
-  border-radius: 10px;
-  padding: 25px 55px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  font-family: Roboto;
-  cursor: pointer; }
 
 .banner {
   /* TODO: input image variable to instead url argument */
@@ -56,7 +57,30 @@ html, body {
 .banner-btn-dark {
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid black;
+  transition: 0.5s;
   color: black; }
+
+.banner-btn-dark:hover {
+  border-color: yellow;
+  color: yellow; }
+
+.button:after {
+  content: "";
+  background: #90EE90;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s; }
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s; }
 
 .banner-btn-white {
   background-color: rgba(0, 0, 0, 0);
