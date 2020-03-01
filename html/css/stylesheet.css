@@ -1,7 +1,6 @@
-.banner-btn-dark, .banner-btn-white {
+.banner-btn-white, .banner-btn-dark {
   margin: 70px 0px 0px 0px;
   background-color: rgba(0, 0, 0, 0);
-  border: 2px solid black;
   border-radius: 10px;
   width: 170px;
   height: 75px;
@@ -53,26 +52,18 @@ html, body {
   font-size: 3em;
   cursor: pointer; }
 
+.banner-btn-white {
+  border: 2px solid white;
+  color: white; }
+
 .banner-btn-dark {
+  border: 2px solid black;
   color: black; }
 
-.banner-btn-dark:hover {
+.banner-content button:hover {
   font-weight: 900;
   color: #ffcf40;
   border: 4px solid #ffbf00;
   transition: 0.3s; }
-
-.banner-btn-dark:after {
-  content: "V";
-  display: block;
-  position: absolute;
-  top: 1px;
-  right: 1px;
-  opacity: 1; }
-
-.banner-btn-white {
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid white;
-  color: white; }
 
 /*# sourceMappingURL=stylesheet.css.map */
