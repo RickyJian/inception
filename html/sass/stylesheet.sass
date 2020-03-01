@@ -5,15 +5,15 @@ $white-color: rgba(255, 255, 255, 1)
 $font-family: Roboto
 
 %banner-button
-    margin: 100px 0px 0px 0px
+    margin: 70px 0px 0px 0px
     background-color: $traspaerncy
+    border: 2px solid $dark-color
     border-radius: 10px
-    width: 150px
-    height: 65px
+    width: 170px
+    height: 75px
     text-align: center
-    text-decoration: none
     display: inline-block
-    font-size: 16px
+    font-size: 20px
     font-family: $font-family
     cursor: pointer
 
@@ -62,17 +62,16 @@ html, body
 
 .banner-btn-dark
     @extend %banner-button
-    background-color: $traspaerncy
-    border: 1px solid $dark-color
-    transition: 0.5s
     color: $dark-color
 
 .banner-btn-dark:hover
-    // TODO: change color
-    border-color: yellow
-    color: yellow
+    font-weight: 900
+    color: rgb(255,207,64)
+    border: 4px solid rgb(255,191,0)
+    transition: 0.3s
 
-    
+// TODO: add down arrow when button hover
+
 .banner-btn-white
     @extend %banner-button
     background-color: $traspaerncy

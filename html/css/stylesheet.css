@@ -1,13 +1,13 @@
 .banner-btn-dark, .banner-btn-white {
-  margin: 100px 0px 0px 0px;
+  margin: 70px 0px 0px 0px;
   background-color: rgba(0, 0, 0, 0);
+  border: 2px solid black;
   border-radius: 10px;
-  width: 150px;
-  height: 65px;
+  width: 170px;
+  height: 75px;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
   font-family: Roboto;
   cursor: pointer; }
 
@@ -22,7 +22,6 @@ html, body {
   color: white; }
 
 .banner {
-  /* TODO: input image variable to instead url argument */
   background-image: url("../img/top_banner.jpg");
   height: 100%;
   background-position: center;
@@ -55,32 +54,21 @@ html, body {
   cursor: pointer; }
 
 .banner-btn-dark {
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid black;
-  transition: 0.5s;
   color: black; }
 
 .banner-btn-dark:hover {
-  border-color: yellow;
-  color: yellow; }
+  font-weight: 900;
+  color: #ffcf40;
+  border: 4px solid #ffbf00;
+  transition: 0.3s; }
 
-.button:after {
-  content: "";
-  background: #90EE90;
+.banner-btn-dark:after {
+  content: "V";
   display: block;
   position: absolute;
-  padding-top: 300%;
-  padding-left: 350%;
-  margin-left: -20px !important;
-  margin-top: -120%;
-  opacity: 0;
-  transition: all 0.8s; }
-
-.button:active:after {
-  padding: 0;
-  margin: 0;
-  opacity: 1;
-  transition: 0s; }
+  top: 1px;
+  right: 1px;
+  opacity: 1; }
 
 .banner-btn-white {
   background-color: rgba(0, 0, 0, 0);
