@@ -22,7 +22,7 @@
         <div class="banner-image" style="--banner-image-src: url('../img/top_banner.jpg')"></div>
         <div class="banner-content" >
             <h1>Lorem ipsum dolor sit amet</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Fugiat sequi maxime illo omnis necessitatibus minima.</p>
             <i class="fas fa-envelope-square"></i>
             <i class="fab fa-github-square"></i>
@@ -40,13 +40,32 @@
             - news
             - skills
             - about me
-        - search tab
+        - search tab: toggle open and close at the end of right
     -->
+    <nav class="navbar sticky-top navbar-expand-md navbar-light bd-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content"
+            aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div id="nav-content" class="collapse navbar-collapse">
+            <div class="navbar-nav w-100 justify-content-start"></div>
+            <div class="navbar-nav w-100 justify-content-center">
+                <a class="nav-item nav-link active" href="#"> News </a>
+                <a class="nav-item nav-link" href="#"> Skills </a>
+                <a class="nav-item nav-link" href="#"> About </a>
+            </div>
+            <form class="form-inline w-100 justify-content-end">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
 
 </body>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
+<script src=" https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
     crossorigin="anonymous"></script>
