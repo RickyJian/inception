@@ -70,12 +70,14 @@ nav {
   border-style: solid;
   border-width: 0.5px 0px; }
 
+.nav-item.active .nav-link,
+.nav-item:hover .nav-link {
+  color: #ffffff;
+  background-color: #333; }
+
 .nav-item {
   font-family: Roboto;
   font-size: 20px;
   margin: 0px 20px; }
-
-.nav-item > a:hover {
-  color: yellow; }
 
 /*# sourceMappingURL=stylesheet.css.map */

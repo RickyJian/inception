@@ -8377,4 +8377,16 @@ a.text-transparency:hover, a.text-transparency:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+nav {
+  border-style: solid;
+  border-width: 0.5px 0px; }
+  nav .nav-item.active .nav-link,
+  nav .nav-item:hover .nav-link {
+    color: #ffffff;
+    background-color: #333; }
+  nav .nav-item {
+    font-family: Roboto;
+    font-size: 20px;
+    margin: 0px  20px; }
+
 /*# sourceMappingURL=main.css.map */
