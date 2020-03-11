@@ -1,0 +1,42 @@
+// color
+//
+// define basic color
+
+// bootstrap color
+@import "../bootstrap/scss/functions"; 
+@import "../bootstrap/scss/variables";
+
+// dark mode
+$dark-primary: rgb(18,18,18);
+$dark-secondary: rgb(45,45,45);
+$dark-tertiary: rgb(55,55,55);
+$dark-font: rgb(248,249,250);
+$dark-tag: rgb(255,198,138);
+$dark-mask: rgb(229,229,229);
+
+// light mode
+$light-primary: rgb(241,230,216);
+$light-secondary: rgb(234,218,200);
+$light-tertiary: rgb(222,200,170);
+$light-font: rgb(52,58,64);
+$light-tag: rgb(68,108,207);
+$light-mask: rgb(243,236,228);
+
+// project color
+$theme-colors: (
+    "light-primary": $light-primary,
+    "light-secondary": $light-secondary,
+    "light-tertiary": $light-tertiary,
+    "light-font": $light-font,
+    "light-tag": $light-tag,
+    "light-mask": $light-mask,
+    "dark-primary": $dark-primary,
+    "dark-secondary": $dark-secondary,
+    "dark-tertiary": $dark-tertiary,
+    "dark-font": $dark-font,
+    "dark-tag": $dark-tag,
+    "dark-mask": $dark-mask,
+    "transparency": rgba(0, 0, 0, 0)
+);
+
+@import "../bootstrap/scss/bootstrap";
