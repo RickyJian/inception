@@ -3,8 +3,9 @@
 // main defines project css
 
 // project
+@import "color";
 @import "variable";
-@import "banner";
 
-// bootstrap
+// bootstrap4 
 
+@import "../bootstrap/scss/bootstrap";
