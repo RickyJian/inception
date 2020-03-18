@@ -38,7 +38,7 @@ html, body {
     position: absolute;
     text-align: center;
     vertical-align: middle;
-    color: $light-font-light;
+    // color: $light-font-light;
 
     h1 {
         font-size: 5em;
@@ -58,14 +58,14 @@ html, body {
     button {
         margin: 70px 0px 0px 0px;
         background-color: $transparency;
-        border: 2px solid $light-font-light;
+        border: 2px solid $light-font-dark; 
         width: 180px;
         height: 70px;
         text-align: center;
         display: inline-block;
         font-size: 22px;
         font-family: $font-family;
-        color: $light-font-light;
+        color: $light-font-dark;
         cursor: pointer;
 
         // TODO: add arrow below

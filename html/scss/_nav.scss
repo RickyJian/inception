@@ -1,10 +1,12 @@
 // navigation
 //
-//
+// define project navigation
 
 nav {
     border-style: solid;
     border-width: 0.5px 0px;
+    // background-color: &light-primary;
+    // color: &light-font;
 
     .nav-item.active .nav-link,
     .nav-item:hover .nav-link{
