@@ -1,11 +1,16 @@
-html, body {
+body {
+  background-color: #f6f9fc; }
+
+html,
+body {
   height: 100%;
   margin: 0%; }
 
 .banner {
-  background: #f1e6d8; }
+  background: #f6f9fc; }
 
-.banner, .banner-image {
+.banner,
+.banner-image {
   height: 100%; }
 
 .banner-image {
@@ -39,6 +44,8 @@ html, body {
     margin: 70px 0px 0px 0px;
     background-color: rgba(0, 0, 0, 0);
     border: 2px solid #343a40;
+    position: relative;
+    padding: 0px;
     width: 180px;
     height: 70px;
     text-align: center;
@@ -47,15 +54,26 @@ html, body {
     font-family: Roboto;
     color: #343a40;
     cursor: pointer; }
+    .banner-content button span {
+      text-align: center;
+      position: absolute;
+      display: inline-block;
+      left: 90px;
+      opacity: 0; }
     .banner-content button:hover {
-      color: white;
-      background-color: rgba(222, 200, 170, 0.2);
-      border: 2px solid #dec8aa;
-      transition: 0.3s; }
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      padding-bottom: 20px;
+      transition: 0.5s; }
+      .banner-content button:hover span {
+        padding-top: 25px;
+        opacity: 1;
+        transition: 0.5s; }
 
 nav {
   border-style: solid;
-  border-width: 0.5px 0px; }
+  border-color: #d4c992;
+  border-width: 0.5px 0px;
+  background-color: #f8f0c9; }
   nav .nav-item.active .nav-link,
   nav .nav-item:hover .nav-link {
     color: #ffffff;
@@ -64,6 +82,9 @@ nav {
     font-family: Roboto;
     font-size: 20px;
     margin: 0px  20px; }
+
+html, body {
+  background-color: #f6f9fc; }
 
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
