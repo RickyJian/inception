@@ -17,6 +17,9 @@ $dark-mask: rgb(229,229,229);
 // light mode
 $light-primary: rgb(241,230,216);
 $light-secondary: rgb(234,218,200);
+$light-nav: rgb(248, 240, 201);
+$light-nav-border: rgb(212, 201, 146);
+$light-bg: rgb(246, 249, 252);
 $light-tertiary: rgb(222,200,170);
 $light-font-dark: rgb(52,58,64);
 $light-font-light: rgb(243, 236, 228);
@@ -25,6 +28,8 @@ $light-mask: rgba(243, 236, 228, 0.8);
 
 // others
 $transparency: rgba(0, 0, 0, 0);
+$box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 // project color
 $theme-colors: (
@@ -35,3 +40,7 @@ $theme-colors: (
     "dark-secondary": $dark-secondary,
     "transparency": $transparency,
 );
+
+body {
+    background-color: $light-bg;
+}
