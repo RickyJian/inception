@@ -69,19 +69,26 @@ body {
         opacity: 1;
         transition: 0.5s; }
 
-nav {
+.navbar {
   border-style: solid;
   border-color: #d4c992;
   border-width: 0.5px 0px;
-  background-color: #f8f0c9; }
-  nav .nav-item.active .nav-link,
-  nav .nav-item:hover .nav-link {
+  background-color: #f8f0c9;
+  box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19); }
+  .navbar .nav-item.active .nav-link,
+  .navbar .nav-item:hover .nav-link {
     color: #ffffff;
     background-color: #333; }
-  nav .nav-item {
+  .navbar .nav-item {
     font-family: Roboto;
     font-size: 20px;
-    margin: 0px  20px; }
+    margin: 0px 20px; }
+
+fixed-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1020; }
 
 html, body {
   background-color: #f6f9fc; }
