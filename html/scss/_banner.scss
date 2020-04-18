@@ -40,7 +40,6 @@ body {
   position: absolute;
   text-align: center;
   vertical-align: middle;
-  // color: $light-font-light;
 
   h1 {
     font-size: 5em;
@@ -60,7 +59,7 @@ body {
   button {
     margin: 70px 0px 0px 0px;
     background-color: $transparency;
-    border: 2px solid $light-font-dark;
+    border: 2px solid $light-font;
     position: relative;
     padding: 0px;
     width: $button-width;
@@ -69,7 +68,7 @@ body {
     display: inline-block;
     font-size: 22px;
     font-family: $font-family;
-    color: $light-font-dark;
+    color: $light-font;
     cursor: pointer;
 
     span {
