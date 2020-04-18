@@ -9,6 +9,12 @@
   background-color: $light-nav;
   box-shadow: $box-shadow;
 
+  .nav-link {
+    color: $light-nav-link;
+    text-shadow: 1px 1px $light-nav-link-border,
+      -1px -1px $light-nav-link-border;
+  }
+
   .nav-item.active .nav-link,
   .nav-item:hover .nav-link {
     color: #ffffff;

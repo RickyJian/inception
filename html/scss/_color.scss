@@ -18,11 +18,12 @@ $dark-mask: rgb(229,229,229);
 $light-primary: rgb(241,230,216);
 $light-secondary: rgb(234,218,200);
 $light-nav: rgb(248, 240, 201);
+$light-nav-link: rgb(178, 164, 96);
+$light-nav-link-border: rgb(255, 254, 249);
 $light-nav-border: rgb(212, 201, 146);
 $light-bg: rgb(246, 249, 252);
 $light-tertiary: rgb(222,200,170);
-$light-font-dark: rgb(52,58,64);
-$light-font-light: rgb(243, 236, 228);
+$light-font: rgb(52,58,64);
 $light-tag: rgb(68,108,207);
 $light-mask: rgba(243, 236, 228, 0.8);
 
@@ -35,9 +36,8 @@ $box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
 $theme-colors: (
     "light-primary": $light-primary,
     "light-secondary": $light-secondary,
-    "light-font-dark": $light-font-dark,
-    "dark-primary": $dark-primary,
-    "dark-secondary": $dark-secondary,
+    "light-font": $light-font,
+    "light-bg": $light-bg,
     "transparency": $transparency,
 );
 
