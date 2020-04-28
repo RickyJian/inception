@@ -86,9 +86,6 @@ body {
     .navbar .nav-item:hover {
       background-color: white;
       border-radius: 6px; }
-    .navbar .nav-link:active,
-    .navbar .nav-item:active {
-      color: yellow; }
 
 .fixed-top {
   position: fixed;
@@ -96,7 +93,11 @@ body {
   width: 100%;
   z-index: 1020; }
 
-html, body {
+html {
+  scroll-behavior: smooth; }
+
+html,
+body {
   background-color: #f6f9fc; }
 
 /*!
