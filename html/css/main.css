@@ -75,19 +75,22 @@ body {
   border-width: 0.5px 0px;
   background-color: #f8f0c9;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-  .navbar .nav-link {
-    color: #b2a460;
-    text-shadow: 1px 1px #fffef9, -1px -1px #fffef9; }
-  .navbar .nav-item.active .nav-link,
-  .navbar .nav-item:hover .nav-link {
-    color: #ffffff;
-    background-color: #333; }
+  .navbar .nav-link,
   .navbar .nav-item {
     font-family: Roboto;
     font-size: 20px;
-    margin: 0px 20px; }
+    margin: 0px 20px;
+    color: #b2a460;
+    text-shadow: 1px 1px #fffef9, -1px -1px #fffef9; }
+    .navbar .nav-link:hover,
+    .navbar .nav-item:hover {
+      background-color: white;
+      border-radius: 6px; }
+    .navbar .nav-link:active,
+    .navbar .nav-item:active {
+      color: yellow; }
 
-fixed-top {
+.fixed-top {
   position: fixed;
   top: 0;
   width: 100%;
