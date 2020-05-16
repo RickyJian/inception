@@ -12,3 +12,6 @@ function navSticky() {
     navbar.classList.remove("fixed-top");
   }
 }
+
+function underscoreBinding(link) {
+}
