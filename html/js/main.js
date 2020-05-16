@@ -14,7 +14,7 @@ function navLinkEventBinding() {
       }
 
       navLinks[index].addEventListener("click", function () {
-        underscoreBinding(href.substring(1));
+        underscoreBinding(href);
       });
     })(i);
   }

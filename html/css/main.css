@@ -69,6 +69,17 @@ body {
         opacity: 1;
         transition: 0.5s; }
 
+.navbar .nav-link:before,
+.navbar .nav-item:before, .navbar .active:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 5px;
+  left: 0;
+  background-color: #b2a460;
+  transition: all 0.5s ease-in-out 0s; }
+
 .navbar {
   border-style: solid;
   border-color: #d4c992;
@@ -85,20 +96,15 @@ body {
     text-shadow: 1px 1px #fffef9, -1px -1px #fffef9; }
     .navbar .nav-link:before,
     .navbar .nav-item:before {
-      content: "";
-      position: absolute;
-      width: 100%;
-      height: 2px;
-      bottom: 10px;
-      left: 0;
-      background-color: #b2a460;
       transform: scaleX(0);
-      transition: all 0.5s ease-in-out 0s;
       visibility: hidden; }
     .navbar .nav-link:hover:before,
     .navbar .nav-item:hover:before {
       visibility: visible;
       transform: scaleX(1); }
+  .navbar .active:before {
+    transform: scaleX(1);
+    visibility: visible; }
 
 .fixed-top {
   position: fixed;
